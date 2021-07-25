@@ -3,4 +3,4 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: 1234
+    password: '{cipher}154def84ef4658e1d900c6ab2ed43c596795f4bace54f0f53b6a50456e1aad4c' # 암호화된 문자라는 표시 싱글쿼터 + {}
