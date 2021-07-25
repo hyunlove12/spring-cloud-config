@@ -1,6 +1,7 @@
 token:
   expiration_time: 86400000
-  secret: user_token
+  #secret: user_token
+  secret: '{cipher}AIAugJxm0xkDqlnS7wlogNgU71abjuQstB2kHNWBHhrpz1DWtJk71IOEVITVjtSycxKSfi42wY8HMPpIQkr6Q8xHlYwhGTvfUQKGy2axq+arOUWViQYFMasko6NJJUBqg52OSETV2FYc+BQ/oCUwfqgyvDrBQfl+QEVfuOqSXQDMjV4m1LvVmug7DBKpNQyRimkN28ST8wo6APglBGzX2TT7'
 
 gateway:
   ip: 192.168.0.2
