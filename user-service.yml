@@ -5,3 +5,7 @@ spring:
     username: sa
    # password: '{cipher}154def84ef4658e1d900c6ab2ed43c596795f4bace54f0f53b6a50456e1aad4c' # 암호화된 문자라는 표시 싱글쿼터 + {}
     password: '{cipher}AIAz5m7pIUEVPW/bJz5+doWEFGr2fYsA4k9RSjthFBQRXJm5wzZ1u859qcNb3h1pTCObJQO89esIVwup+l5s9tFvTEho+TpuL6guPLdpybCafEG8yGhZMeIY8od38yFzl/lQOK8CoocC2v1uFHJInNwhToCJVjDnLPKauAoh685qLGBrk/0Wcz6bM818feI3BzhIZBVaZ6yN5GRcwCp4QsEo' # 암호화된 문자라는 표시 싱글쿼터 + {}
+
+
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
