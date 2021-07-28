@@ -10,3 +10,5 @@ spring:
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders #@LOADBALANCED 사용 시 유레캉 ㅔ등록된 이름
   #url: http://127.0.0.1:8000/order-service/%s/orders # 일반 레스트 api
+  exception:
+    order_is_empty: User's order is empty
